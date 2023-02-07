@@ -91,15 +91,6 @@ $numero = 10;
 $texto = 'Cadena de Texto';
 $texto .= ' Una segunda Cadena de Texto';
 
-//echo $texto;
-
-
-$dias_semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
-$limite = 20;
-
-for ($i = 0; $i < count($dias_semana); $i++) { 
-	echo   $dias_semana[$i];	
-	echo '<br>';
-}
+echo $texto;
 
 ?>
